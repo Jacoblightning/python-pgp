@@ -32,7 +32,7 @@ long_description = '\n\n'.join([open(f).read() for f in [
 requires = [
     'pgpdump3',  # python3 compatible pgpdump
     'python-magic',
-    'pycrypto',
+    'pycryptodome',
     'six',
     'requests',
     'zope.interface',
